@@ -3,5 +3,23 @@ Content-Type: application/json
 
 {
     "name": "Cauã Carvalho",
-    "email": "caucau@gmail.com"
+    "email": "cau@gmail.com"
 }
+
+###
+
+GET  http://localhost:3333/invites/d1208502-b5f0-43ab-825e-fb8ceb8b78a6
+
+GET http://localhost:3333/invites/286b4ab4-b7be-44ab-89f7-3d21698ce550
+####
+
+GET http://localhost:3333/subscribers/286b4ab4-b7be-44ab-89f7-3d21698ce550/ranking/clicks
+
+####
+GET http://localhost:3333/subscribers/286b4ab4-b7be-44ab-89f7-3d21698ce550/ranking/count
+
+####
+GET http://localhost:3333/subscribers/286b4ab4-b7be-44ab-89f7-3d21698ce550/ranking/position
+
+####
+GET http://localhost:3333/ranking
